@@ -1,10 +1,10 @@
 # Human VCF file annotation
 
-Input file: vcf file using human_g1k_v37.fasta as the reference genome, the vcf file should contain the following columns as the specific order: 
+**Input file**: vcf file using human_g1k_v37.fasta as the reference genome, the vcf file should contain the following columns as the specific order: 
 
 CHROM POS ID REF ALT QUAL FILTER INFO
 
-Output file: annotated variants in csv contains the following information:
+**Output file**: annotated variants in csv contains the following information:
 
 chr: Chromosome 
 
