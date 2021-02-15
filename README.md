@@ -17,6 +17,7 @@ eff: The effect of the variant predicted by snpEff
 ##1. Download snpEff for variant effects annotation
 
 wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
+
 unzip snpEff_latest_core.zip
 
 ##2. Configuration of vcfAnnotation.sh
@@ -26,4 +27,5 @@ Open vcfAnnotation.sh with the text editor and set up the snpEff.jar location
 ##3. Make vcfAnnotation.sh executable and run vcfAnnotation.sh
 
 chmod +x vcfAnnotation.sh
+
 bash vcfAnnotation.sh Challenge_data.vcf
